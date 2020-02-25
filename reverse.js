@@ -13,3 +13,12 @@ return arrayCopied.reverse()
 
 }
 console.log(result)
+
+
+// seconda parte
+
+let arrayValue = [1, 2, 3, 4, 5]
+
+let reverseArrayInPlace = arrayValue.reduce((start, end) => ([end, ...start]), [])
+
+console.log(reverseArrayInPlace)
